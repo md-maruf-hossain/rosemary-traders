@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "name": "Seeds",
+    "description": "Grow with confidence using our premium seeds sourced from the finest growers. Cultivate excellence.",
+    "image": "seeds.jpg",
+    "items": [
+      { "id": 1, "name": "Pumpkin", "image": "pumpkin.jpg" },
+      { "id": 2, "name": "Sunflower", "image": "sunflower.jpg" },
+      { "id": 3, "name": "Watermelon", "image": "watermelon.jpg" },
+      { "id": 4, "name": "Fenugreek", "image": "fenugreek.jpg" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Spices",
+    "description": "Add a dash of the extraordinary to your cuisine with our handpicked spices. Taste the world’s best.",
+    "image": "spices.jpg",
+    "items": [
+      { "id": 1, "name": "Cloves", "image": "cloves.jpg" },
+      { "id": 2, "name": "Black Pepper", "image": "black_pepper.jpg" },
+      { "id": 3, "name": "Raisins", "image": "raisins.jpg" },
+      { "id": 4, "name": "Cumin", "image": "cumin.jpg" },
+      { "id": 5, "name": "Brown Cardamom", "image": "brown_cardamom.jpg" },
+      { "id": 6, "name": "Red Chili", "image": "red_chili.jpg" },
+      { "id": 7, "name": "Turmeric", "image": "turmeric.jpg" },
+      { "id": 8, "name": "Fennel Seeds", "image": "fennel_seeds.jpg" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Clothing",
+    "description": "Step out in style with our curated collection of international fashion. Wear the world.",
+    "image": "clothing.jpg",
+    "items": [
+      { "id": 1, "name": "Saree", "image": "saree.jpg" },
+      { "id": 2, "name": "Lehenga", "image": "lehenga.jpg" },
+      { "id": 3, "name": "Three-piece Suit", "image": "three_piece.jpg" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Cosmetics",
+    "description": "Enhance your beauty with products crafted from the purest ingredients. Glow globally.",
+    "image": "cosmetics.jpg",
+    "items": [
+      {
+        "id": 1,
+        "name": "Soap",
+        "image": "soap.jpg",
+        "sub_items": [
+          { "id": 1, "name": "Dove", "image": "dove.jpg" },
+          { "id": 2, "name": "Imperial", "image": "imperial.jpg" },
+          { "id": 3, "name": "Fiamma", "image": "fiamma.jpg" },
+          { "id": 4, "name": "Faa", "image": "faa.jpg" },
+          { "id": 5, "name": "Goat Milk", "image": "goat_milk.jpg" },
+          { "id": 6, "name": "Vivel", "image": "vivel.jpg" },
+          { "id": 7, "name": "Pase", "image": "pase.jpg" }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Perfume",
+        "image": "perfume.jpg",
+        "sub_items": [
+          { "id": 1, "name": "Fogg", "image": "fogg.jpg" },
+          { "id": 2, "name": "Denver", "image": "denver.jpg" },
+          { "id": 3, "name": "Denim", "image": "denim.jpg" },
+          { "id": 4, "name": "Axe", "image": "axe.jpg" },
+          { "id": 5, "name": "Set Wet", "image": "set_wet.jpg" }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Grooming",
+        "image": "grooming.jpg",
+        "sub_items": [
+          { "id": 1, "name": "Gillette Razors", "image": "gillette_razors.jpg" },
+          { "id": 2, "name": "Gillette Blades", "image": "gillette_blades.jpg" }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Moisturizing Cream",
+        "image": "moisturizing_cream.jpg",
+        "sub_items": [
+          { "id": 1, "name": "Ponds", "image": "ponds.jpg" },
+          { "id": 2, "name": "Nivea", "image": "nivea.jpg" },
+          { "id": 3, "name": "Johnson", "image": "johnson.jpg" },
+          { "id": 4, "name": "Vaseline", "image": "vaseline.jpg" }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Hair Color",
+        "image": "hair_color.jpg",
+        "sub_items": [{ "id": 1, "name": "Garnier", "image": "garnier.jpg" }]
+      },
+      {
+        "id": 6,
+        "name": "Hair Oil",
+        "image": "hair_oil.jpg",
+        "sub_items": [
+          { "id": 1, "name": "Vatika", "image": "vatika.jpg" },
+          { "id": 2, "name": "Navratna", "image": "navratna.jpg" },
+          { "id": 3, "name": "Shesha", "image": "shesha.jpg" },
+          { "id": 4, "name": "Johnson", "image": "johnson_oil.jpg" },
+          { "id": 5, "name": "Emami 7 Oils", "image": "emami_7_oils.jpg" },
+          { "id": 6, "name": "Dabur Amla", "image": "dabur_amla.jpg" },
+          { "id": 7, "name": "Keo Karpin", "image": "keo_karpin.jpg" }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Body Lotion",
+        "image": "body_lotion.jpg",
+        "sub_items": [
+          { "id": 1, "name": "Johnson", "image": "johnson_lotion.jpg" },
+          { "id": 2, "name": "Vaseline", "image": "vaseline_lotion.jpg" },
+          { "id": 3, "name": "Ponds", "image": "ponds_lotion.jpg" },
+          { "id": 4, "name": "Nivea", "image": "nivea_lotion.jpg" }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Hair Serum",
+        "image": "hair_serum.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Face Serum",
+        "image": "face_serum.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Foods",
+    "image": "foods.jpg",
+    "items": [
+      { "id": 1, "name": "Sago Seeds", "image": "sago_seeds.jpg" },
+      { "id": 2, "name": "Barley", "image": "barley.jpg" },
+      { "id": 3, "name": "Black Salt", "image": "black_salt.jpg" },
+      { "id": 4, "name": "Chocolate", "image": "chocolate.jpg" }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Nuts",
+    "image": "nuts.jpg",
+    "items": [
+      { "id": 1, "name": "Almond", "image": "almond.jpg" },
+      { "id": 2, "name": "Cashew Nut", "image": "cashew_nut.jpg" },
+      { "id": 3, "name": "Walnut", "image": "walnut.jpg" }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Chemicals",
+    "image": "chemicals.jpg",
+    "items": [{ "id": 1, "name": "Bleaching Powder", "image": "bleaching_powder.jpg" }]
+  }
+]
