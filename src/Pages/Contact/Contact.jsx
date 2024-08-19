@@ -9,23 +9,23 @@ const Contact = () => {
             width="100%"
             height="100%"
             className="absolute inset-0 contrast-75 opacity-60"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116833.95338886736!2d90.41968899999999!3d23.7808405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1724013527068!5m2!1sen!2sbd"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.2598197517464!2d90.44009957594155!3d23.702413990615767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9da85628617%3A0x6cc3f76ab4485e9e!2sRahman%20Plaza!5e0!3m2!1sen!2sbd!4v1724014874263!5m2!1sen!2sbd"
           ></iframe>
-          <div className="bg-white relative flex flex-wrap py-6 pr-10 rounded shadow-md">
+          <div className="bg-white relative flex flex-wrap py-6 lg:pr-10 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
-              <p className="mt-1">Dhaka, Bangladesh</p>
+              <p className="mt-1">280, Rahman Plaza, Dania, Jatrabari, Dhaka-1236</p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
               <a className="text-green-500 leading-relaxed">rosemary.traders.bd@gmail.com</a>
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-              <p className="leading-relaxed">+880 1711 116 679</p>
+              <p className="leading-relaxed">+880 1944 448 999</p>
             </div>
           </div>
         </div>
         <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-          <h2 className="text-green-500 text-4xl mb-1 font-medium title-font">Contact Us</h2>
+          <h2 className="text-green-600 text-4xl mb-1 title-font font-extrabold">Contact Us</h2>
           <p className="leading-relaxed mb-5 text-gray-600">For more update</p>
           <div className="relative mb-4">
             <label for="name" className="leading-7 text-sm text-gray-600">
