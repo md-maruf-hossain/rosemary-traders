@@ -30,7 +30,9 @@ const Navbar = () => {
           </ul>
         </div>
         {/* /navbar drop down for phone */}
-        <a className="btn btn-ghost text-xl">Rosemary Traders</a>
+        <Link to="/" className="btn btn-ghost text-xl">
+          Rosemary Traders
+        </Link>
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1 font-medium">
