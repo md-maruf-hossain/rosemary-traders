@@ -15,6 +15,8 @@ const About = () => {
       </div>
       <div className="video-container">
         <iframe
+          width="425px"
+          height="300px"
           className="py-10"
           src="https://drive.google.com/file/d/1A1ls9KhvpW2HmiLE6lnLhSxWWLOkFl-y/preview"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
