@@ -7,6 +7,7 @@ import Contact from "../Pages/Contact/Contact";
 import WhyChooseUs from "../Pages/WhyChooseUs/WhyChooseUs";
 import Testimonials from "../Pages/Testimonials/Testimonials";
 import Products from "../Pages/Products/Products";
+import Product from "../Pages/Products/Product";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "/products",
         element: <Products />,
+      },
+      {
+        path: "/products/:id",
+        element: <Product/>,
       },
       {
         path: "/why-choose-us",
