@@ -1,4 +1,5 @@
 import Contact from "../Contact/Contact";
+import Products from "../Products/Products";
 import CasouselGallery from "./CarouselGallery/CasouselGallery";
 import CarouselTestimonial from "./CarouselTestimonial/CarouselTestimonial";
 import Faq from "./FAQ/Faq";
@@ -8,6 +9,7 @@ const Home = () => {
     return (
         <div>
             <Hero/>
+            <Products/>
             <CasouselGallery/>
             <Faq/>
             <CarouselTestimonial/>

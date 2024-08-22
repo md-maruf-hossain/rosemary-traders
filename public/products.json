@@ -1,0 +1,166 @@
+[
+  {
+    "id": "101",
+    "name": "Seeds",
+    "description": "Grow with confidence using our premium seeds sourced from the finest growers. Cultivate excellence.",
+    "image": "https://i.ibb.co/2WhVHBq/seeds.jpg",
+    "items": [
+      { "itemsId": "1011", "itemsName": "Pumpkin", "itemsImage": "pumpkin.jpg" },
+      { "itemsId": "1012", "itemsName": "Sunflower", "itemsImage": "sunflower.jpg" },
+      { "itemsId": "1013", "itemsName": "Watermelon", "itemsImage": "watermelon.jpg" },
+      { "itemsId": "1014", "itemsName": "Fenugreek", "itemsImage": "fenugreek.jpg" }
+    ]
+  },
+  {
+    "id": "102",
+    "name": "Spices",
+    "description": "Add a dash of the extraordinary to your cuisine with our handpicked spices. Taste the world's best.",
+    "image": "https://i.ibb.co/3pjgb53/Spices.jpg",
+    "items": [
+      { "itemsId": "1021", "itemsName": "Cloves", "itemsImage": "cloves.jpg" },
+      { "itemsId": "1022", "itemsName": "Black Pepper", "itemsImage": "black_pepper.jpg" },
+      { "itemsId": "1023", "itemsName": "Raisins", "itemsImage": "raisins.jpg" },
+      { "itemsId": "1024", "itemsName": "Cumin", "itemsImage": "cumin.jpg" },
+      { "itemsId": "1025", "itemsName": "Brown Cardamom", "itemsImage": "brown_cardamom.jpg" },
+      { "itemsId": "1026", "itemsName": "Red Chili", "itemsImage": "red_chili.jpg" },
+      { "itemsId": "1027", "itemsName": "Turmeric", "itemsImage": "turmeric.jpg" },
+      { "itemsId": "1028", "itemsName": "Fennel Seeds", "itemsImage": "fennel_seeds.jpg" }
+    ]
+  },
+  {
+    "id": "103",
+    "name": "Clothing",
+    "description": "Step out in style with our curated collection of international fashion. Wear the world.",
+    "image": "https://i.ibb.co/FzWM8cH/Clothing.webp",
+    "items": [
+      { "itemsId": "1031", "itemsName": "Saree", "itemsImage": "saree.jpg" },
+      { "itemsId": "1032", "itemsName": "Lehenga", "itemsImage": "lehenga.jpg" },
+      { "itemsId": "1033", "itemsName": "Three-piece Suit", "itemsImage": "three_piece.jpg" }
+    ]
+  },
+  {
+    "id": "104",
+    "name": "Cosmetics",
+    "description": "Enhance your beauty with products crafted from the purest ingredients. Glow globally.",
+    "image": "https://i.ibb.co/TTXGWLx/Cosmetics.png",
+    "items": [
+      {
+        "itemsId": "1041",
+        "itemsName": "Soap",
+        "itemsImage": "soap.jpg",
+        "sub_items": [
+          { "subItemsId": "10411", "subItemsName": "Dove", "subItemsImage": "dove.jpg" },
+          { "subItemsId": "10412", "subItemsName": "Imperial", "subItemsImage": "imperial.jpg" },
+          { "subItemsId": "10413", "subItemsName": "Fiamma", "subItemsImage": "fiamma.jpg" },
+          { "subItemsId": "10414", "subItemsName": "Faa", "subItemsImage": "faa.jpg" },
+          { "subItemsId": "10415", "subItemsName": "Goat Milk", "subItemsImage": "goat_milk.jpg" },
+          { "subItemsId": "10416", "subItemsName": "Vivel", "subItemsImage": "vivel.jpg" },
+          { "subItemsId": "10417", "subItemsName": "Pase", "subItemsImage": "pase.jpg" }
+        ]
+      },
+      {
+        "itemsId": "1042",
+        "itemsName": "Perfume",
+        "itemsImage": "perfume.jpg",
+        "sub_items": [
+          { "subItemsId": "10421", "subItemsName": "Fogg", "subItemsImage": "fogg.jpg" },
+          { "subItemsId": "10422", "subItemsName": "Denver", "subItemsImage": "denver.jpg" },
+          { "subItemsId": "10423", "subItemsName": "Denim", "subItemsImage": "denim.jpg" },
+          { "subItemsId": "10424", "subItemsName": "Axe", "subItemsImage": "axe.jpg" },
+          { "subItemsId": "10425", "subItemsName": "Set Wet", "subItemsImage": "set_wet.jpg" }
+        ]
+      },
+      {
+        "itemsId": "1043",
+        "itemsName": "Grooming",
+        "itemsImage": "grooming.jpg",
+        "sub_items": [
+          { "subItemsId": "10431", "subItemsName": "Gillette Razors", "subItemsImage": "gillette_razors.jpg" },
+          { "subItemsId": "10432", "subItemsName": "Gillette Blades", "subItemsImage": "gillette_blades.jpg" }
+        ]
+      },
+      {
+        "itemsId": "1044",
+        "itemsName": "Moisturizing Cream",
+        "itemsImage": "moisturizing_cream.jpg",
+        "sub_items": [
+          { "subItemsId": "10441", "subItemsName": "Ponds", "subItemsImage": "ponds.jpg" },
+          { "subItemsId": "10442", "subItemsName": "Nivea", "subItemsImage": "nivea.jpg" },
+          { "subItemsId": "10443", "subItemsName": "Johnson", "subItemsImage": "johnson.jpg" },
+          { "subItemsId": "10444", "subItemsName": "Vaseline", "subItemsImage": "vaseline.jpg" }
+        ]
+      },
+      {
+        "itemsId": "1045",
+        "itemsName": "Hair Color",
+        "itemsImage": "hair_color.jpg",
+        "sub_items": [{ "subItemsId": "10451", "subItemsName": "Garnier", "subItemsImage": "garnier.jpg" }]
+      },
+      {
+        "itemsId": "1046",
+        "itemsName": "Hair Oil",
+        "itemsImage": "hair_oil.jpg",
+        "sub_items": [
+          { "subItemsId": "10461", "subItemsName": "Vatika", "subItemsImage": "vatika.jpg" },
+          { "subItemsId": "10462", "subItemsName": "Navratna", "subItemsImage": "navratna.jpg" },
+          { "subItemsId": "10463", "subItemsName": "Shesha", "subItemsImage": "shesha.jpg" },
+          { "subItemsId": "10464", "subItemsName": "Johnson", "subItemsImage": "johnson_oil.jpg" },
+          { "subItemsId": "10465", "subItemsName": "Emami 7 Oils", "subItemsImage": "emami_7_oils.jpg" },
+          { "subItemsId": "10466", "subItemsName": "Dabur Amla", "subItemsImage": "dabur_amla.jpg" },
+          { "subItemsId": "10467", "subItemsName": "Keo Karpin", "subItemsImage": "keo_karpin.jpg" }
+        ]
+      },
+      {
+        "itemsId": "1047",
+        "itemsName": "Body Lotion",
+        "itemsImage": "body_lotion.jpg",
+        "sub_items": [
+          { "subItemsId": "10471", "subItemsName": "Johnson", "subItemsImage": "johnson_lotion.jpg" },
+          { "subItemsId": "10472", "subItemsName": "Vaseline", "subItemsImage": "vaseline_lotion.jpg" },
+          { "subItemsId": "10473", "subItemsName": "Ponds", "subItemsImage": "ponds_lotion.jpg" },
+          { "subItemsId": "10474", "subItemsName": "Nivea", "subItemsImage": "nivea_lotion.jpg" }
+        ]
+      },
+      {
+        "itemsId": "1048",
+        "itemsName": "Hair Serum",
+        "itemsImage": "hair_serum.jpg"
+      },
+      {
+        "itemsId": "1049",
+        "itemsName": "Face Serum",
+        "itemsImage": "face_serum.jpg"
+      }
+    ]
+  },
+  {
+    "id": "105",
+    "name": "Foods",
+    "description": "Indulge in our selection of gourmet foods, perfect for every palate.",
+    "image": "https://i.ibb.co/YRbr4p8/food.jpg",
+    "items": [
+      { "itemsId": "1051", "itemsName": "Sago Seeds", "itemsImage": "sago_seeds.jpg" },
+      { "itemsId": "1052", "itemsName": "Barley", "itemsImage": "barley.jpg" },
+      { "itemsId": "1053", "itemsName": "Black Salt", "itemsImage": "black_salt.jpg" },
+      { "itemsId": "1054", "itemsName": "Chocolate", "itemsImage": "chocolate.jpg" }
+    ]
+  },
+  {
+    "id": "106",
+    "name": "Nuts",
+    "description": "Savor the richness of our premium nuts, sourced from the best orchards.",
+    "image": "https://i.ibb.co/YRmsdgG/Nuts.jpg",
+    "items": [
+      { "itemsId": "1061", "itemsName": "Almond", "itemsImage": "almond.jpg" },
+      { "itemsId": "1062", "itemsName": "Cashew Nut", "itemsImage": "cashew_nut.jpg" },
+      { "itemsId": "1063", "itemsName": "Walnut", "itemsImage": "walnut.jpg" }
+    ]
+  },
+  {
+    "id": "107",
+    "name": "Chemicals",
+    "description": "Explore our range of high-quality chemicals, essential for various applications.",
+    "image": "https://i.ibb.co/XCm11cb/Chemicals.jpg",
+    "items": [{ "itemsId": "1071", "itemsName": "Bleaching Powder", "itemsImage": "bleaching_powder.jpg" }]
+  }
+]

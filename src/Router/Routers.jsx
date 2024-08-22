@@ -8,6 +8,7 @@ import WhyChooseUs from "../Pages/WhyChooseUs/WhyChooseUs";
 import Testimonials from "../Pages/Testimonials/Testimonials";
 import Products from "../Pages/Products/Products";
 import Product from "../Pages/Products/Product";
+import NestedProduct from "../Pages/Products/NestedProduct";
 
 const router = createBrowserRouter([
   {
@@ -30,7 +31,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/products/:id",
-        element: <Product/>,
+        element: <Product />,
+      },
+      {
+        path: "/products/:id/:itemsId",
+        element: <NestedProduct/>,
       },
       {
         path: "/why-choose-us",
@@ -44,7 +49,6 @@ const router = createBrowserRouter([
         path: "/contact-us",
         element: <Contact />,
       },
-      
     ],
   },
 ]);

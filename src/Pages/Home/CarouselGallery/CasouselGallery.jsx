@@ -31,7 +31,7 @@ export default function CasouselGallery() {
   }, []);
 
   return (
-    <div className=" flex flex-col justify-center px-4 py-8 mx-auto md:p-8 w-2/4">
+    <div className="container m-auto">
       <h2 className="text-2xl font-semibold py-5 sm:text-4xl text-center text-green-600">Gallery</h2>
 
       {/*<!-- Component: Carousel with indicators & controls inside --> */}
@@ -40,19 +40,25 @@ export default function CasouselGallery() {
         <div className="overflow-hidden" data-glide-el="track">
           <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
             <li>
-              <img src="https://Tailwindmix.b-cdn.net/carousel/carousel-image-05.jpg" className="m-auto max-h-full w-full max-w-full" />
+              <img src="https://i.ibb.co/2WhVHBq/seeds.jpg" className="object-cover object-center w-full h-full block" />
             </li>
             <li>
-              <img src="https://Tailwindmix.b-cdn.net/carousel/carousel-image-01.jpg" className="m-auto max-h-full w-full max-w-full" />
+              <img src="https://i.ibb.co/3pjgb53/Spices.jpg" className="object-cover object-center w-full h-full block" />
             </li>
             <li>
-              <img src="https://Tailwindmix.b-cdn.net/carousel/carousel-image-02.jpg" className="m-auto max-h-full w-full max-w-full" />
+              <img src="https://i.ibb.co/FzWM8cH/Clothing.webp" className="object-cover object-center w-full h-full block" />
             </li>
             <li>
-              <img src="https://Tailwindmix.b-cdn.net/carousel/carousel-image-03.jpg" className="m-auto max-h-full w-full max-w-full" />
+              <img src="https://i.ibb.co/TTXGWLx/Cosmetics.png" className="object-cover object-center w-full h-full block" />
             </li>
             <li>
-              <img src="https://Tailwindmix.b-cdn.net/carousel/carousel-image-04.jpg" className="m-auto max-h-full w-full max-w-full" />
+              <img src="https://i.ibb.co/YRbr4p8/food.jpg" className="object-cover object-center w-full h-full block" />
+            </li>
+            <li>
+              <img src="https://i.ibb.co/mtm8VHZ/Nuts.jpg" className="object-cover object-center w-full h-full block" />
+            </li>
+            <li>
+              <img src="https://i.ibb.co/XCm11cb/Chemicals.jpg" className="object-cover object-center w-full h-full block" />
             </li>
           </ul>
         </div>
