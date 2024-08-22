@@ -1,6 +1,39 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
+import toast from "react-hot-toast"; // Import react-hot-toast
 
 const Contact = () => {
+  const form = useRef();
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm("service_iewh2qy", "template_jtpx5hh", form.current, "JKo6b2oBPjqdNMbh6").then(
+      () => {
+        toast.success("Your message has been sent");
+        setFormData({
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+        });
+      },
+      (error) => {
+        console.log("FAILED...", error.text);
+      }
+    );
+  };
+
   return (
     <section className="text-gray-600 body-font relative">
       <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
@@ -18,7 +51,9 @@ const Contact = () => {
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-              <a className="text-green-500 leading-relaxed">rosemary.traders.bd@gmail.com</a>
+              <a href="mailto:rosemary.traders.bd@gmail.com" className="text-green-500 leading-relaxed">
+                rosemary.traders.bd@gmail.com
+              </a>
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
               <p className="leading-relaxed">+880 1944 448 999</p>
             </div>
@@ -27,40 +62,52 @@ const Contact = () => {
         <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-green-600 text-4xl mb-1 title-font font-extrabold">Contact Us</h2>
           <p className="leading-relaxed mb-5 text-gray-600">For more update</p>
-          <div className="relative mb-4">
-            <label for="name" className="leading-7 text-sm text-gray-600">
-              Name
-            </label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              className="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-            />
-          </div>
-          <div className="relative mb-4">
-            <label for="email" className="leading-7 text-sm text-gray-600">
-              Email
-            </label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              className="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              data-temp-mail-org="0"
-            />
-          </div>
-          <div className="relative mb-4">
-            <label for="message" className="leading-7 text-sm text-gray-600">
-              Message
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              className="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-            ></textarea>
-          </div>
-          <button className="text-white bg-green-600 border-0 py-2 px-6 focus:outline-none rounded text-lg">Send us your opinion</button>
+          <form ref={form} onSubmit={sendEmail}>
+            <div className="relative mb-4">
+              <label htmlFor="name" className="leading-7 text-sm text-gray-600">
+                Name
+              </label>
+              <input
+                onChange={handleChange}
+                type="text"
+                id="name"
+                name="name"
+                value={formData.name}
+                className="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                required
+              />
+            </div>
+            <div className="relative mb-4">
+              <label htmlFor="email" className="leading-7 text-sm text-gray-600">
+                Email
+              </label>
+              <input
+                onChange={handleChange}
+                type="email"
+                id="email"
+                name="email"
+                value={formData.email}
+                className="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                required
+              />
+            </div>
+            <div className="relative mb-4">
+              <label htmlFor="message" className="leading-7 text-sm text-gray-600">
+                Message
+              </label>
+              <textarea
+                onChange={handleChange}
+                id="message"
+                name="message"
+                value={formData.message}
+                className="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" className="text-white bg-green-600 border-0 py-2 px-6 focus:outline-none rounded text-lg">
+              Send us your opinion
+            </button>
+          </form>
         </div>
       </div>
     </section>
