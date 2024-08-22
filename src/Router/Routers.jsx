@@ -34,8 +34,8 @@ const router = createBrowserRouter([
         element: <Product />,
       },
       {
-        path: "/products/:id/:itemsId",
-        element: <NestedProduct/>,
+        path: "/products/:id/:id",
+        element: <NestedProduct />,
       },
       {
         path: "/why-choose-us",
