@@ -23,7 +23,7 @@ export default function SliderTestimonial() {
   }, []);
 
   return (
-    <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8 w-2/4">
+    <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8 w-11/12 lg:w-5/12 ">
       <h2 className="text-2xl font-semibold py-5 sm:text-4xl text-center text-green-600">What Our Customers Are Saying</h2>
       {/*<!-- Component: Testimonial slider --> */}
       <div className="relative w-full glide-08">

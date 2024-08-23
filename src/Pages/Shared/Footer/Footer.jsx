@@ -4,6 +4,7 @@ const Footer = () => {
   return (
     <footer class="body-font bg-green-600">
       <div class="container px-5 py-12 mx-auto flex items-center sm:flex-row flex-col">
+        <img src="https://i.ibb.co/NYxWScz/Rosemary-Traders-white.png" alt="" className="w-20"/>
         <a class="flex title-font items-center md:justify-start justify-center font-bold">
           <span class="ml-3 text-2xl uppercase text-white">Rosemary Traders</span>
         </a>

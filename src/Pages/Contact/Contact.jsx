@@ -9,6 +9,7 @@ const Contact = () => {
     email: "",
     message: "",
   });
+
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -23,9 +24,9 @@ const Contact = () => {
       () => {
         toast.success("Your message has been sent");
         setFormData({
-          name: formData.name,
-          email: formData.email,
-          message: formData.message,
+          name: "",
+          email: "",
+          message: "",
         });
       },
       (error) => {

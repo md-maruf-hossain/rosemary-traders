@@ -30,7 +30,8 @@ const Navbar = () => {
           </ul>
         </div>
         {/* /navbar drop down for phone */}
-        <Link to="/" className="btn btn-ghost text-xl">
+        <Link to="/" className="btn bg-transparent border-none text-white shadow-none text-2xl flex flex-col hover:bg-transparent uppercase">
+        <img src="https://i.ibb.co/NYxWScz/Rosemary-Traders-white.png" alt="" className="w-16"/>
           Rosemary Traders
         </Link>
       </div>
