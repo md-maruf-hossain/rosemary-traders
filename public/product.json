@@ -3,7 +3,7 @@
     "id": "101",
     "name": "Seeds",
     "description": "Grow with confidence using our premium seeds sourced from the finest growers. Cultivate excellence.",
-    "image": "https://i.ibb.co/2WhVHBq/seeds.jpg",
+    "image": "/src/assets/images/category product/seeds.jpg",
     "items": [
       { "id": "1011", "name": "Pumpkin", "image": "https://i.ibb.co/KF7YjmD/pumpkin-seed-images.jpg" },
       { "id": "1012", "name": "Sunflower", "image": "https://i.ibb.co/w0T5R8q/Sunflower.webp" },
@@ -15,121 +15,121 @@
     "id": "102",
     "name": "Spices",
     "description": "Add a dash of the extraordinary to your cuisine with our handpicked spices. Taste the world's best.",
-    "image": "https://i.ibb.co/3pjgb53/Spices.jpg",
+    "image": "/src/assets/images/category product/Spices.jpg",
     "items": [
-      { "id": "1021", "name": "Cloves", "image": "https://i.ibb.co/wWvFVY5/clove.jpg" },
-      { "id": "1022", "name": "Black Pepper", "image": "https://i.ibb.co/YyVssGh/Black-Pepper.jpg" },
-      { "id": "1023", "name": "Raisins", "image": "https://i.ibb.co/P1mLbjt/Raisins.jpg" },
-      { "id": "1024", "name": "Cumin", "image": "https://i.ibb.co/F7ZcvWN/Cumin.jpg" },
-      { "id": "1025", "name": "Brown Cardamom", "image": "https://i.ibb.co/JHXFhDL/Brown-Cardamom.jpg" },
-      { "id": "1026", "name": "Red Chili", "image": "https://i.ibb.co/qmm4x5z/Red-Chili.jpg" },
-      { "id": "1027", "name": "Turmeric", "image": "https://i.ibb.co/16qsnF1/Turmeric.jpg" },
-      { "id": "1028", "name": "Fennel Seeds", "image": "https://i.ibb.co/XDh7rHh/Fennel-Seeds.jpg.jpg" }
+      { "id": "1021", "name": "Cloves", "image": "/src/assets/images/spices/clove.jpeg" },
+      { "id": "1022", "name": "Black Pepper", "image": "/src/assets/images/spices/Black Pepper.jpeg" },
+      { "id": "1023", "name": "Raisins", "image": "/src/assets/images/spices/Raisins.jpg" },
+      { "id": "1024", "name": "Cumin", "image": "/src/assets/images/spices/Cumin.jpg" },
+      { "id": "1025", "name": "Brown Cardamom", "image": "/src/assets/images/spices/Brown Cardamom.jpg" },
+      { "id": "1026", "name": "Red Chili", "image": "/src/assets/images/spices/Red Chili.jpg" },
+      { "id": "1027", "name": "Turmeric", "image": "/src/assets/images/spices/Turmeric.jpg" },
+      { "id": "1028", "name": "Fennel Seeds", "image": "/src/assets/images/spices/Fennel Seeds.jpg" }
     ]
   },
   {
     "id": "103",
     "name": "Clothing",
     "description": "Step out in style with our curated collection of international fashion. Wear the world.",
-    "image": "https://i.ibb.co/FzWM8cH/Clothing.webp",
+    "image": "/src/assets/images/category product/Clothing.webp",
     "items": [
-      { "id": "1031", "name": "Saree", "image": "https://i.ibb.co/Y3jhz67/sharee.jpg" },
-      { "id": "1032", "name": "Lehenga", "image": "https://i.ibb.co/jws1gc4/Lehenga.jpg" },
-      { "id": "1033", "name": "Three-piece Suit", "image": "https://i.ibb.co/3p8gW2j/Three-piece-Suit.jpg" }
+      { "id": "1031", "name": "Saree", "image": "/src/assets/images/clothing/sharee.jpg" },
+      { "id": "1032", "name": "Lehenga", "image": "/src/assets/images/clothing/Lehenga.jpg" },
+      { "id": "1033", "name": "Three-piece Suit", "image": "/src/assets/images/clothing/Three-piece Suit.jpg" }
     ]
   },
   {
     "id": "104",
     "name": "Cosmetics",
     "description": "Enhance your beauty with products crafted from the purest ingredients. Glow globally.",
-    "image": "https://i.ibb.co/TTXGWLx/Cosmetics.png",
+    "image": "/src/assets/images/category product/Cosmetics.jfif",
     "items": [
       {
         "id": "1041",
         "name": "Soap",
-        "image": "https://i.ibb.co/BCBDqWg/Soap.webp",
+        "image": "/src/assets/images/cosmetics/Soap.webp",
         "sub_items": [
-          { "id": "10411", "name": "Dove", "image": "https://i.ibb.co/ZdLRVG3/dove.webp" },
-          { "id": "10412", "name": "Imperial", "image": "https://i.ibb.co/r64MqHD/Imperial.jpg" },
-          { "id": "10413", "name": "Fiamma", "image": "https://i.ibb.co/vdBPZDq/Fiamma.jpg" },
-          { "id": "10414", "name": "Faa", "image": "https://i.ibb.co/BLtBk6d/Faa.png" },
-          { "id": "10415", "name": "Goat Milk", "image": "https://i.ibb.co/2YCJW9m/Goat-Milk.jpg" },
-          { "id": "10416", "name": "Vivel", "image": "https://i.ibb.co/LP963Gy/Vivel.webp" },
-          { "id": "10417", "name": "Pase", "image": "https://i.ibb.co/s9xnp24/Pase.jpg" }
+          { "id": "10411", "name": "Dove", "image": "/src/assets/images/soap/dove.webp" },
+          { "id": "10412", "name": "Imperial", "image": "/src/assets/images/soap/Fiamma.jpg" },
+          { "id": "10413", "name": "Fiamma", "image": "/src/assets/images/soap/Fiamma.jpg" },
+          { "id": "10414", "name": "Faa", "image": "/src/assets/images/soap/Faa.png" },
+          { "id": "10415", "name": "Goat Milk", "image": "/src/assets/images/soap/Goat Milk.jpg" },
+          { "id": "10416", "name": "Vivel", "image": "/src/assets/images/soap/Vivel.webp" },
+          { "id": "10417", "name": "Pase", "image": "/src/assets/images/soap/Pase.jpeg" }
         ]
       },
       {
         "id": "1042",
         "name": "Perfume",
-        "image": "https://i.ibb.co/LJ4V5KJ/Perfume.jpg",
+        "image": "/src/assets/images/cosmetics/Perfume.jpg",
         "sub_items": [
-          { "id": "10421", "name": "Fogg", "image": "https://i.ibb.co/qx2NJ1J/Fogg.jpg" },
-          { "id": "10422", "name": "Denver", "image": "https://i.ibb.co/LvDb8XH/Denver.webp" },
-          { "id": "10423", "name": "Denim", "image": "https://i.ibb.co/w6pPtQx/Denim.jpg" },
-          { "id": "10424", "name": "Axe", "image": "https://i.ibb.co/BtW8N4c/Axe.jpg" },
-          { "id": "10425", "name": "Set Wet", "image": "https://i.ibb.co/wwtY8h2/Set-Wet.png" }
+          { "id": "10421", "name": "Fogg", "image": "/src/assets/images/perfume/Fogg.jpg" },
+          { "id": "10422", "name": "Denver", "image": "/src/assets/images/perfume/Denver.webp" },
+          { "id": "10423", "name": "Denim", "image": "/src/assets/images/perfume/Denim.jpg" },
+          { "id": "10424", "name": "Axe", "image": "/src/assets/images/perfume/Axe.jpg" },
+          { "id": "10425", "name": "Set Wet", "image": "/src/assets/images/perfume/Set Wet.png" }
         ]
       },
       {
         "id": "1043",
         "name": "Grooming",
-        "image": "https://i.ibb.co/RBdGV34/Grooming.webp",
+        "image": "/src/assets/images/cosmetics/Grooming.webp",
         "sub_items": [
-          { "id": "10431", "name": "Gillette Razors", "image": "https://i.ibb.co/Ws8f0L8/Gillette-Razors.webp" },
-          { "id": "10432", "name": "Gillette Blades", "image": "https://i.ibb.co/55Yw5GS/Blades.jpg" }
+          { "id": "10431", "name": "Gillette Razors", "image": "/src/assets/images/GROOMING/Gillette Razors.webp" },
+          { "id": "10432", "name": "Gillette Blades", "image": "/src/assets/images/GROOMING/Blades.jpg" }
         ]
       },
       {
         "id": "1044",
         "name": "Moisturizing Cream",
-        "image": "https://i.ibb.co/yhvZYYf/Moisturizing-Cream.webp",
+        "image": "/src/assets/images/cosmetics/Moisturizing Cream.webp",
         "sub_items": [
-          { "id": "10441", "name": "Ponds", "image": "https://i.ibb.co/Zf9L6v4/Ponds-Moisturizers.webp" },
-          { "id": "10442", "name": "Nivea", "image": "https://i.ibb.co/QX0snfw/Nivea.webp" },
-          { "id": "10443", "name": "Johnson", "image": "https://i.ibb.co/Z1C3n7F/Johnson.webp" },
-          { "id": "10444", "name": "Vaseline", "image": "https://i.ibb.co/k9ncpPv/Vaseline.jpg" }
+          { "id": "10441", "name": "Ponds", "image": "/src/assets/images/moisturizer/Ponds-Moisturizers.webp" },
+          { "id": "10442", "name": "Nivea", "image": "/src/assets/images/moisturizer/Nivea.webp" },
+          { "id": "10443", "name": "Johnson", "image": "/src/assets/images/moisturizer/Johnson.webp" },
+          { "id": "10444", "name": "Vaseline", "image": "/src/assets/images/moisturizer/Vaseline.jpeg" }
         ]
       },
       {
         "id": "1045",
         "name": "Hair Color",
-        "image": "https://i.ibb.co/3fYz6b8/Hair-Color.jpg",
-        "sub_items": [{ "id": "10451", "name": "Garnier", "image": "https://i.ibb.co/KF47fHJ/harnier.webp" }]
+        "image": "/src/assets/images/cosmetics/Hair Color.jpg",
+        "sub_items": [{ "id": "10451", "name": "Garnier", "image": "/src/assets/images/hair color/HAIR COLOR.jpg" }]
       },
       {
         "id": "1046",
         "name": "Hair Oil",
-        "image": "https://i.ibb.co/RPq4ZDb/Hair-Oil.jpg",
+        "image": "/src/assets/images/cosmetics/Hair Oil.jpg",
         "sub_items": [
-          { "id": "10461", "name": "Vatika", "image": "https://i.ibb.co/JsDMVT2/Vatika.webp" },
-          { "id": "10462", "name": "Navratna", "image": "https://i.ibb.co/xqPy9gs/Navratna.jpg" },
-          { "id": "10463", "name": "Shesha", "image": "https://i.ibb.co/SQ8qNC4/Shesha-hair-old.webp" },
-          { "id": "10464", "name": "Johnson", "image": "https://i.ibb.co/q5QnZ1f/Johnson.webp" },
-          { "id": "10465", "name": "Emami 7 Oils", "image": "https://i.ibb.co/2n5c7BS/Emami-7-Oils.webp" },
-          { "id": "10466", "name": "Dabur Amla", "image": "https://i.ibb.co/q7Ry9Yp/Dabur-Amla.jpg" },
-          { "id": "10467", "name": "Keo Karpin", "image": "https://i.ibb.co/BBvCP5y/Keo-Karpin.jpg" }
+          { "id": "10461", "name": "Vatika", "image": "/src/assets/images/hair oil/Vatika.webp" },
+          { "id": "10462", "name": "Navratna", "image": "/src/assets/images/hair oil/Navratna.avif" },
+          { "id": "10463", "name": "Shesha", "image": "/src/assets/images/hair oil/Shesha hair old.webp" },
+          { "id": "10464", "name": "Johnson", "image": "/src/assets/images/hair oil/Johnson.webp" },
+          { "id": "10465", "name": "Emami 7 Oils", "image": "/src/assets/images/hair oil/Emami 7 Oils.webp" },
+          { "id": "10466", "name": "Dabur Amla", "image": "/src/assets/images/hair oil/Dabur Amla.jpg" },
+          { "id": "10467", "name": "Keo Karpin", "image": "/src/assets/images/hair oil/Keo Karpin.jpg" }
         ]
       },
       {
         "id": "1047",
         "name": "Body Lotion",
-        "image": "https://i.ibb.co/HXJ1mXK/Body-Lotion.jpg",
+        "image": "/src/assets/images/cosmetics/Body Lotion.jpg",
         "sub_items": [
-          { "id": "10471", "name": "Johnson", "image": "https://i.ibb.co/txHv8FK/Johnson.jpg" },
-          { "id": "10472", "name": "Vaseline", "image": "https://i.ibb.co/7bsWQjd/Vaseline.jpg" },
-          { "id": "10473", "name": "Ponds", "image": "https://i.ibb.co/44jW1JN/Ponds.webp" },
-          { "id": "10474", "name": "Nivea", "image": "https://i.ibb.co/5rT2Nzx/Nivea.jpg" }
+          { "id": "10471", "name": "Johnson", "image": "/src/assets/images/body lotion/Johnson.jpg" },
+          { "id": "10472", "name": "Vaseline", "image": "/src/assets/images/body lotion/Vaseline.avif" },
+          { "id": "10473", "name": "Ponds", "image": "/src/assets/images/body lotion/Ponds.webp" },
+          { "id": "10474", "name": "Nivea", "image": "/src/assets/images/body lotion/Nivea.jpg" }
         ]
       },
       {
         "id": "1048",
         "name": "Hair Serum",
-        "image": "https://i.ibb.co/V2Gf4g1/Hair-Serum.jpg"
+        "image": "/src/assets/images/cosmetics/Hair Serum.jpg"
       },
       {
         "id": "1049",
         "name": "Face Serum",
-        "image": "https://i.ibb.co/9ZgLCXj/Face-Serum.jpg"
+        "image": "/src/assets/images/cosmetics/Face Serum.jpg"
       }
     ]
   },
@@ -137,30 +137,30 @@
     "id": "105",
     "name": "Foods",
     "description": "Indulge in our selection of gourmet foods, perfect for every palate.",
-    "image": "https://i.ibb.co/YRbr4p8/food.jpg",
+    "image": "/src/assets/images/category product/food.jpg",
     "items": [
-      { "id": "1051", "name": "Sago Seeds", "image": "https://i.ibb.co/pbM8bXq/sago-seeds.jpg" },
-      { "id": "1052", "name": "Barley", "image": "https://i.ibb.co/qBzrTzB/Barley.jpg" },
-      { "id": "1053", "name": "Black Salt", "image": "https://i.ibb.co/5rhwRj8/Black-Salt.jpg" },
-      { "id": "1054", "name": "Chocolate", "image": "https://i.ibb.co/C0HQ9ML/Chocolate.jpg" }
+      { "id": "1051", "name": "Sago Seeds", "image": "/src/assets/images/foods/sago-seeds.jpg" },
+      { "id": "1052", "name": "Barley", "image": "/src/assets/images/foods/Barley.jpg" },
+      { "id": "1053", "name": "Black Salt", "image": "/src/assets/images/foods/Black Salt.avif" },
+      { "id": "1054", "name": "Chocolate", "image": "/src/assets/images/foods/Chocolate.jpeg" }
     ]
   },
   {
     "id": "106",
     "name": "Nuts",
     "description": "Savor the richness of our premium nuts, sourced from the best orchards.",
-    "image": "https://i.ibb.co/mtm8VHZ/Nuts.jpg",
+    "image": "/src/assets/images/category product/Nuts.jpg",
     "items": [
-      { "id": "1061", "name": "Almond", "image": "https://i.ibb.co/0ZLsTd0/Almond.webp" },
-      { "id": "1062", "name": "Cashew Nut", "image": "https://i.ibb.co/n1Shdwp/Cashew-Nut.webp" },
-      { "id": "1063", "name": "Walnut", "image": "https://i.ibb.co/SfmQLy8/Walnut.jpg" }
+      { "id": "1061", "name": "Almond", "image": "/src/assets/images/nuts/Almond.webp" },
+      { "id": "1062", "name": "Cashew Nut", "image": "/src/assets/images/nuts/Cashew Nut.webp" },
+      { "id": "1063", "name": "Walnut", "image": "/src/assets/images/nuts/Walnut.jpeg" }
     ]
   },
   {
     "id": "107",
     "name": "Chemicals",
     "description": "Explore our range of high-quality chemicals, essential for various applications.",
-    "image": "https://i.ibb.co/XCm11cb/Chemicals.jpg",
-    "items": [{ "id": "1071", "name": "Bleaching Powder", "image": "https://i.ibb.co/k01qQkz/blitching-powder.jpg" }]
+    "image": "/src/assets/images/category product/Chemicals.jpg",
+    "items": [{ "id": "1071", "name": "Bleaching Powder", "image": "/src/assets/images/chemical/blitching powder.jpg" }]
   }
 ]
